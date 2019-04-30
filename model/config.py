@@ -101,6 +101,7 @@ class Config():
     lr_decay         = 1.0
     clip             = -5.0 # if negative, no clipping
     nepoch_no_imprv  = 8
+    max_size = 50
 
     # model hyperparameters
     hidden_size_char = 100 # lstm on chars
