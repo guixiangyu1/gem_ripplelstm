@@ -74,7 +74,7 @@ class Config():
     filename_glove = "../gem_extractor/data/dewiki_20180420_300d.txt"
     # trimmed embeddings (created from glove_filename with build_data.py)
     filename_trimmed = "data/dewiki_20180420_300d.npz"
-    use_pretrained = False
+    use_pretrained = True
 
     # dataset
     filename_dev = "data/valid_gem.txt"
